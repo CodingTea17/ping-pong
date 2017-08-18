@@ -18,35 +18,45 @@
       </div>
       <div class="row">
         <div class="col-lg-9">
-          <div class="card">
-            <div class="card-body">
-              <h3>Play Ping Pong!</h3>
-              <ul>
-                <li>
-                  Numbers divisible by 3 are replaced with "ping"
-                </li>
-                <li>
-                  Numbers divisible by 5 are replaced with "pong"
-                </li>
-                <li>
-                  Numbers divisible by 15 are replaced with "ping-pong"
-                </li>
-              </ul>
-              <form id="number">
-                <div class="form-group">
-                  <div class="row">
-                    <div class="col-md-3">
-                      <label for="user-input">Enter a Number!</label>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="card">
+                <div class="card-body">
+                  <h3>Play Ping Pong!</h3>
+                  <ul>
+                    <li>
+                      Numbers divisible by 3 are replaced with "ping"
+                    </li>
+                    <li>
+                      Numbers divisible by 5 are replaced with "pong"
+                    </li>
+                    <li>
+                      Numbers divisible by 15 are replaced with "ping-pong"
+                    </li>
+                  </ul>
+                  <form id="number">
+                    <div class="form-group">
+                      <div class="row">
+                        <div class="col-md-3">
+                          <label for="user-input">Enter a Number!</label>
+                        </div>
+                        <div class="col-md-7">
+                          <input type="text" class="form-control" id="user-input" />
+                        </div>
+                        <div class="col-md-2">
+                          <button class="btn btn-primary" type="submit">Submit!</button>
+                        </div>
+                      </div>
                     </div>
-                    <div class="col-md-7">
-                      <input type="text" class="form-control" id="user-input" />
-                    </div>
-                    <div class="col-md-2">
-                      <button class="btn btn-primary" type="submit">Submit!</button>
-                    </div>
-                  </div>
+                  </form>
                 </div>
-              </form>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <ul id="numbers">
+              </ul>
             </div>
           </div>
         </div>
