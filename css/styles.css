@@ -17,12 +17,15 @@ ul {
   background: #e3f2fd;
   border: 1px solid #0d47a1;
 }
-#sidebar {
-
+.form-group {
+  margin-top: 20px;
 }
 #results {
   margin-top: 16px;
   display: none;
   overflow-y: auto;
   max-height: 400px;
+}
+#card-header {
+  margin-bottom: 16px;
 }

@@ -28,6 +28,8 @@ $(document).ready(function(){
     $("#numbers").empty();
     if (pingPong(inputNum)){
       $("#results").show();
-    };
+    } else {
+      $("#results").hide();
+    }
   });
 });
