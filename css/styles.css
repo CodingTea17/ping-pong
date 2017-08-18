@@ -17,3 +17,6 @@ body {
 #sidebar {
 
 }
+#results {
+  display: none;
+}
