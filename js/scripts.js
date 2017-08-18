@@ -18,6 +18,7 @@ $(document).ready(function(){
   $("form#number").submit(function(event){
     event.preventDefault();
     var inputNum = $("#user-input").val();
+    $("#numbers").empty();
     $("#results").show();
     pingPong(inputNum);
   });

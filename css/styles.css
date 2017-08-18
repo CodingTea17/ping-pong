@@ -18,6 +18,8 @@ body {
 
 }
 #results {
+  margin-top: 16px;
   display: none;
-  overflow: scroll;
+  overflow-y: auto;
+  max-height: 400px;
 }
